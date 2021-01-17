@@ -19,7 +19,7 @@ function prideti() {
 
   let icon = document.createElement("img");
   icon.src =
-    "https://cdn.glitch.com/06905442-d5f8-46be-92f9-5b7292b1fa60%2Ftask-11-243952.png?v=1605437647209";
+    "src/icon.png";
   icon.setAttribute("class", "icon");
 
   subject.innerHTML = document.getElementById("subject").value;
