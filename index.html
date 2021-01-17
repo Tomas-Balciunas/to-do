@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Hello!</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script> 
+    
+    
+    
+  </head>  
+  <body>
+  <h1>TASK LIST</h1>
+    <form id="forma">
+      <label for="subject">Subject</label>
+      <input type="text" placeholder="Enter subject" id="subject"><br>
+      <label for="priority">Priority</label>
+      <select id="priority">
+        <option value="Low">Low</option>
+        <option value="Normal">Normal</option>
+        <option value="High">High</option>
+      </select><br>
+      <label for="duedate">Due Date</label>
+      <input type="date" id="duedate"><br>
+      <label for="status">Status</label>
+      <select id="status">
+        <option value="New">New</option>
+        <option value="In Progress">In Progress</option>
+        <option value="Completed">Completed</option>
+      </select><br>
+      <label for="progress">Progress</label>
+      <select type="range" name="progress" id="progress">
+        <option value="0">0%</option>
+        <option value="10">10%</option>
+        <option value="20">20%</option>
+        <option value="30">30%</option>
+        <option value="40">40%</option>
+        <option value="50">50%</option>
+        <option value="60">60%</option>
+        <option value="70">70%</option>
+        <option value="80">80%</option>
+        <option value="90">90%</option>
+        <option value="100">100%</option>
+      </select><br>
+      <input type="button" value="Create" id="mygtukas">
+    </form>
+       
+    
+    <table cellspacing="0" id="headtable">
+      <tr id="headrow"><br>
+        <th class="headcol iconcol"><img src="src/bar.png" id="taskicon"></th>
+        <th class="headcol border">Subject</th>
+        <th class="headcol border">Priority</th>
+        <th class="headcol border">Due date</th>
+        <th class="headcol border">Status</th>
+        <th class="headcol">Percent completed</th>
+        <th class="headcol modifiedcol">Last modified on</th>
+      </tr>
+      <tbody id="tbody"></tbody>
+    </table>
+    
+    
+    
+<script src="script.js"></script>
+  </body>
+</html>

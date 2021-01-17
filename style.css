@@ -1,0 +1,175 @@
+html {
+  height: 100%;
+  background-image: url("src/bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: "Lucida Console", Courier, monospace;
+}
+
+.headcol {
+  font-weight: bold;
+  font-size: 0.8em;
+  border: 1px solid black;
+  padding: 0.5em;
+  background-color: #fc9999;
+}
+
+img {
+  width: 2em;
+}
+
+.icon {
+  width: 1.2em;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.delete {
+  display: none;
+}
+
+#headrow {
+  background-color: rgba(0, 0, 0, 0);
+}
+
+#subjectcol {
+  padding-left: 4em;
+  padding-right: 4em;
+}
+
+#statuscol {
+  width: 7em;
+}
+
+td {
+  padding: 0.5em;
+}
+
+.marked {
+  color: gray;
+  text-decoration: line-through;
+}
+
+.addrow {
+  border-radius: 1em;
+  background-color: rgba(0, 0, 0, 0);
+  margin-bottom: 1em;
+}
+
+#removebutton {
+  width: 0.5em;
+  font-size: 1em;
+  color: #a8071c;
+  background-color: rgba(0, 0, 0, 0);
+  border: solid rgba(0, 0, 0, 0);
+  padding-top: 0.3em;
+  margin-right: -1.5em;
+  outline: none;
+}
+
+#progbar {
+  background-color: white;
+  border: 0.5px solid black;
+  margin-left: 0.8em;
+  margin-right: 0.8em;
+  border-radius: 0.5em;
+}
+
+#progbar::-moz-progress-bar {
+  background-color: #689ff2;
+  border-radius: 0.5em;
+}
+
+#progbar::-webkit-progress-bar {
+  background-color: white;
+  border-radius: 0.5em;
+}
+
+#progbar::-webkit-progress-value {
+  background-color: #689ff2;
+  border-radius: 0.5em;
+}
+
+table {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#forma {
+  display: flex;
+  flex-flow: column;
+  width: 15em;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+#mygtukas {
+  margin-top: 2em;
+  margin-bottom: 2em;
+  width: 5em;
+  padding: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  border: 2px solid #fc9999;
+  border-radius: 1em;
+  background-color: rgba(0, 0, 0, 0);
+  outline: none;
+}
+
+input,
+select {
+  border: 0.15em solid #fc9999;
+  border-radius: 1em;
+  background-position-x: 244px;
+  -moz-appearance: none;
+  text-align: center;
+  margin-bottom: 1em;
+  background-color: rgba(0, 0, 0, 0);
+  outline: none;
+}
+
+option {
+  background-color: rgba(0, 0, 0, 0);
+}
+
+h1 {
+  text-align: center;
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+.high {
+  text-align: center;
+  margin-left: 0.8em;
+  text-shadow: 0 0 3px red, 0 0 10px red;
+}
+
+.normal {
+  text-align: center;
+  margin-left: 0.8em;
+  text-shadow: 0 0 3px yellow, 0 0 10px yellow;
+}
+
+.low {
+  text-align: center;
+  margin-left: 0.8em;
+  text-shadow: 0 0 3px green, 0 0 10px green;
+}
+
+.iconcol {
+  border-radius: 0.5em 0 0 0.5em;
+  border-right: 0;
+}
+
+.modifiedcol {
+  border-radius: 0 0.5em 0.5em 0;
+  border-left: 0;
+}
+
+.border {
+  border-right: 0;
+}
